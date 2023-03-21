@@ -7,6 +7,7 @@ class Solution {
             leftsum[i]=sum;
             sum+=nums[i];
         }
+        
         int rightsum[]=new int[nums.length];
         rightsum[nums.length-1]=0;
         int sum1=nums[nums.length-1];
