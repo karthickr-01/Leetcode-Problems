@@ -22,6 +22,7 @@ public:
                     itr->next=itr->next->next;
                 }
             }
+            
             else itr=itr->next;
         }
         return dummy->next;
